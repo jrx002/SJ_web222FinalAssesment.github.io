@@ -1,0 +1,148 @@
+body {
+    background-color: #666666;
+}
+
+.viewport {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    background-color:lightgrey;
+}
+
+header {
+    height: 700px;
+    padding-top: 16px;
+    padding-bottom: 2px;
+    margin: auto;
+    background-image: url(./sea.jpg);
+    font-family:'Times New Roman', Times, serif;
+} 
+
+header h1 {
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+
+nav {
+    background-color: rgb(40, 136, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+    border-top: 3px solid;
+    border-bottom: 3px outset;
+}
+
+nav ul {
+    margin: auto;
+    padding: 4px;	
+    color: white;
+    
+ }  
+
+nav li {
+    display: inline;
+    padding: 8px 8px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #666666;
+    color: lightgray;
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+
+main img {
+    position: static;
+    right: 20px;
+    width: 80%;
+    margin: 10%;
+    border-radius: 50%;
+}
+
+.gaming, .programming, .basketball {
+    width: 50%;
+    margin: 10px;
+    border-radius: 0;
+}
+
+.Ajax, .Interests {
+    padding-right: 30px;
+    border-right: 6px groove grey;
+}
+
+aside {
+    height: 500px;
+    width: 20%;
+    padding: 20px;
+    float: right;
+    border-left: 6px groove grey;
+}
+
+.aboutPic {
+    width: 90%;
+    margin: auto;
+}
+
+.Message {
+    bottom: 0;
+    right: 0;
+    border-top: 1px solid black;
+}
+
+.About {
+    float: right;
+    border: none;
+}
+
+footer {
+    height:60px; 
+    color: lightgray;
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(40, 136, 168);
+}
+
+label {
+    display:inline-block;
+    width: 300px;
+    text-align: left;
+}
+input{
+    box-sizing: border-box;
+    border-color: black;
+}
+
+button {
+    margin-right: 30px;
+    padding: 10px
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+    

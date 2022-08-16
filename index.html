@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Steven Jiang" />
+    <meta name="description" content="Index page" />
+    <title>WEB222NAA Final Assesment - Index</title>
+    <link rel="stylesheet" href="normalize1.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="viewport">
+      <header>
+        <h1>Hi, this is Steven Jiang</h1>
+      </header>
+      <nav id="mainmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <span>|</span>
+          <li><a href="interest.html">Interests</a></li>
+          <span>|</span>
+          <li><a href="expertise.html">Expertise</a></li>
+        </ul>
+      </nav>
+
+      <main class="index">
+          <img class="profilePic"
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQE4HG00DNFEVw/profile-displayphoto-shrink_800_800/0/1563981081631?e=1662595200&v=beta&t=2jDByNby-_VVk83_gNOQ2nPmK096UgkfIIaBVY5MvmE"
+          alt="Author Profile"
+          />
+        <h2>About Author</h2>
+        <p>
+          Steven Jiang is a former graduate from Centennial College, a three-year architecture
+          technology program. Since graduation, He has been eager to gain hands-on experience
+          through different varieties of job roles. As a young man who's compassionate about the
+          changes in the world, he wish to adopt hard-working and dynamic personalities to achieve
+          his success.
+        </p>
+        <p>
+          Recently he has applied Computer Programming Analysis program at Seneca College to enhance
+          his workplace skill for his future career.
+        </p>
+      </main>
+
+      <aside class="Declaration">
+        <h2>Honesty Statment: </h2>
+        <p>
+          I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. 
+          No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructor and / or 
+          made available in this assignment for my use. I also declare that no part of this assignment has been distributed to other students. 
+        </p>
+        <span>Name: Steven Jiang </span> 
+        <br>
+        <span>Dated: August 14th, 2022</span> 
+      </aside>
+
+      <aside class="Message">
+        <h2>Contact Author: </h2>
+        <form id="visitorMessage" action="https://httpbin.org/post" method="post">
+          <!--FULL name-->
+            <label for="fullName">Full Name (*):</label>
+            <input type="text" id="fullName" name="fullName" size="20" required="required" autofocus>
+          <br>
+          <!--email-->
+            <label for="email">E-mail (*):</label>
+            <input type="email" id="email" name="email" size="20" required="required">
+          <br>
+          <!--Phone-->
+            <label for="phone">Phone# :</label>
+            <input type="text" id="phone" name="phone" placeholder="(999) 999-9999" pattern="\d{3}-\d{3}-\d{4}" size="20">
+          <br>
+          <!--Company-->
+            <label for="company">Company :</label>  
+            <input type="text" id="company" name="company" size="20">
+          <br>
+          <!--Occupation-->
+            <label for="occupation">Occupation :</label>  
+            <input type="text" id="occupation" name="occupation" size="20">
+          <br>
+          <!--Message-->
+            <label for="messages">Message (*):</label>  
+            <textarea name="messages" id="messages" cols="25" rows="10" placeholder="Input your messages:" required="required"></textarea>
+          <br>
+          <!--submit-->
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+      </aside>
+      
+      <footer>
+        <p>@ Copyright 2022 to Steven Jiang - All rights reserved.</p>
+      </footer>  
+    </div>
+  </body>
+</html>
